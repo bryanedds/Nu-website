@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
+    <title>Nu</title>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+</head>
+<body>
+    <header>
+        <nav class="fixed backdrop-blur-md w-full text-white bg-white bg-opacity-20">
+            <ul class="flex items-center space-x-3">
+                <li>
+                    <a href="/">
+                        <img src="img/logo.png" alt="nu logo" width="50" height="50">
+                    </a>
+                </li>
+                <li>
+                    <a href="/" class="hover:underline">Home</a>
+                </li>
+                <li>
+                    <a href="#doc" class="hover:underline">Docs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="flex h-[100vh] w-[100vw] bg-img items-center justify-center text-white text-center">
+            <section>
+                <h1 class="font-bold text-9xl">
+                    Nu
+                </h1>
+                <p class="text-2xl w-100">
+                    A free and open source functional game engine written in F#.
+                </p>
+                <br>
+                <br>
+                <br>
+                <a class="bg-[#0075FF] p-3 hover:bg-[#005BC7] transition-colors" href="#">
+                    Getting started
+                </a>
+            </section>
+        </div>
+        <div class="flex flex-col space-y-25 h-[100vh] w-[100vw] items-center justify-center text-center bg-[#292929]">
+            <section>
+                <h2 class="text-6xl">
+                    Features
+                </h2>
+                <ul class="list-disc text-left">
+                    <li class="ml-10">Feature 1</li>
+                    <li class="ml-10">Feature 2</li>
+                    <li class="ml-10">Feature 3</li>
+                    <li class="ml-10">Feature 4</li>
+                </ul>
+            </section>
+            <section class="text-center">
+                <h2 class="text-6xl">
+                    Made with Nu
+                </h2>
+                <div>
+                    <div class="flex flex-col h-[100vh] w-[100vw] items-center justify-center text-center h-85 w-100 bg-[#343434] mx-auto mt-4 rounded-2xl">
+                        <img class="mt-5 mb-5 rounded-sm" alt="game" src="img/placeholder.png" width="80%"/>
+                        <h3 class="font-bold text-4xl">
+                            OmniBlade
+                        </h3>
+                        <a class="bg-[#0075FF] p-3 hover:bg-[#005BC7] transition-colors" href="#">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <h2 class="text-3xl">
+                    Fork us
+                </h2>
+                <a href="https://github.com/bryanedds/Nu">
+                    <img class="mx-auto h-15" alt="GitHub" src="img/github.svg"/>
+                </a>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

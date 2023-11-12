@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('../fonts/Lexend.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    overflow-x: hidden;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    font-family: Lexend;
+}
